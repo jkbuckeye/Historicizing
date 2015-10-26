@@ -22,18 +22,43 @@
 			<h1> </h1>	
 			<div class="pure-u-1">
 				<h2>Phase One</h2>
-				<p></p>
+				<p>In my historicizing project, I am going to look at what it took to convert the fonts we’ve been 
+				using for the printed word into web-ready versions.  From what I have read so far there are aspects
+				of projecting fonts that I wouldn’t have thought of before.  These aspects affect how a specific font 
+				is rendered to most closely reflect the author or designers intentions with a message.  But as we were seeing once again in Duckett, 
+				there are plenty of ways font sometimes needs to be manipulated for a sight to be more readable.</p>
 			</div>
 			<div class="pure-u-1">
-				<h2>Phase Two</h2>
-				<p></p>
+				<h2>Phase Two- How Do We Render Text Now?</h2>
+				<p>@font-face- this CSS rule allows for the replacement of fonts with other fonts from different formats 
+				if the fonts which are being used are not found within the parameters of the browser being used.  This means that if a given font is not found, 
+				the site will be rendered with the next available font on the list (or re-set to the default of the given generic family, if none are found).  
+				Each of these subsequent fonts can be retrieved from a different Open-source format, as long as the format itself is specified in the rule. </p>
+				<p>@font-face also allows for the definition of composite fonts to a given site, if there is a need for some glyphs from a different alphabet in a font which 
+				does not normally carry those glyphs.  In this case, the Unicode range must be defined for the character of that usage.</p>
+				<p>Many suggest alternatives to @font-face, which are in some ways thought to be more effective because they do not rely on the 
+				rendering to pick the most appropriate font, but rather link directly to it. One of these methods is to link to an image of the less-web-safe font in 
+				the place you want this text to be read. </p>
+				<p>Many suggest alternatives to @font-face, which are in some ways thought to be more effective because they do not rely on the rendering to pick the most appropriate font, 
+				but rather link directly to it. One of these methods is to link to an image of the less-web-safe font in the place you want this text to be read. Another method called “Cufon” 
+				is said to be a worthy alternative to the aforementioned image-replacement.</p>
+				<p>SIFR, which was invented in 2004, is another way to render text that is not your bland, everyday browser fare. What sIFR does is very similar to image replacement, but it grants more sizing capabilities 
+				and allows the text to more succinctly blend into the content of a page as if it were written in the HTML of the webpage.  It does, however, require a Flashplayer to render, 
+				which not everyone has, and it uses Javascript to over-write the HTML code if the appropriate player is installed.</p>
+				<p>Another method called <q>Cufon</q> is said to be a worthy alternative to the 
+				aforementioned image-replacement.</p>
 			</div>
 			<div class="pure-u-1">
-				<h2>Phase Three</h2>
+				<h2>Phase Three: Issues</h2>
+				<p>Subsetting is a method by which a web designer can manually eliminate certain glyphs from a given font, 
+				assuming that the language he is writing in will not have any need for certain characters.  A drawback is
+				that if for whatever reason there is need for any of these characters, that glyph 
+				will be rendered in a different font, which might not look great.</p>
 				<p></p>
 			</div>
 			<figure>
-				<img src="http://placehold.it/350x150">
+				<img src="history_typeface_system540.jpeg">
+				Courtesy: https://www.typotheque.com/articles/designing_type_systems
 			</figure>
 		</div>
 	</body>
