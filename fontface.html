@@ -13,12 +13,12 @@
 		<div class="pure-menu pure-menu-horizontal">
 			<a href="index.html">Home</a>
 			<a href="history.html">History</a>
-			<a href="GenericFamilies.html">Generic Families</a>
 			@font-face
-			<a href="module.html">CSS3 Font Module</a>
-			<a href="Terms.html">Terms</a>
 			<a href="FontTag.html">Font Tag</a>
 			<a href="sIFR.html">sIFR</a>
+			<a href="GenericFamilies.html">Generic Families</a>
+			<a href="module.html">CSS3 Font Module</a>
+			<a href="Terms.html">Terms</a>
 		</div>
 		<div class=pure-u-1>
 		<h1>@Font-face</h1>
@@ -31,6 +31,15 @@
 		does not normally carry those glyphs.  In this case, the Unicode range must be defined for the character of that usage.</p>
 		@font-face has apparently lent itself to some formats better than others, and so forced the hand not only of foundries (to 
 		either claim royalties for their property, or not), but also made some formats like <a href="http://lists.w3.org/Archives/Public/public-whatwg-archive/2008Apr/0106.html">SVG</a> less appealling.</p>
+		<p>Many suggest alternatives to @font-face, which are in some ways thought to be more effective because they do not rely on the 
+		rendering to pick the most appropriate font, but rather link directly to it. One of these methods is to link to an image of the less-web-safe font in 
+		the place you want this text to be read. </p>	
+		<p>Programs like sIFR foresaw the need for text which was itself expandable and contractible, at least as far as the space it was given.  
+		But it was technologies like this which paved the way for possibly future ones which can be more responsive to how we are viewing them.  
+		As more and more sites are being seen on different formats, everything from media to site grids themselves has to start thinking about creating more responsive options.  
+		And fonts are no exception. There is a movement to create responsive fonts, which won’t conform to the traditional 100-900 weight scale of normal fonts.  
+		Through new CSS coding, typographer Nick Sherman has put forward a proposal to create responsive font which would be able to expand and adjust with the size of the screen.  
+		Citing previous programs such as Adobe’s Multiple Master font format from the 90s, adjustable fonts would give programs better-fitting content and headlines and take up even less data.</p>	
 		<p id="formats">Fonts are imported with @font-face from a variety of open-sources.
 			<ul>
 				<li>TrueDoc
