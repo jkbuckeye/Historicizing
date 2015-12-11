@@ -5,6 +5,7 @@
 
     <title>Web Fonts Terms</title>
 
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <link rel="stylesheet" href="grid.css" type="text/css"/>
     <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
@@ -13,8 +14,10 @@
 	<div class="pure-menu pure-menu-horizontal">
 			<a href="index.html">Home</a>
 			<a href="history.html">History</a>
-			<a href="GenericFamilies.html">Generic Families</a>
 			<a href="fontface.html">@font-face</a>
+			<a href="FontTag.html">Font Tag</a>
+			<a href="sIFR.html">sIFR</a>
+			<a href="GenericFamilies.html">Generic Families</a>
 			<a href="module.html">CSS3 Font Module</a>
 		</div>
 	<div class="pure-u-1">
@@ -27,21 +30,20 @@
 				<p>The basic classification of a font style, which makes it easier for web browsers to match (or get close to matching)
 				a font needed, if the one requested is not available.</p>
 			<li><a href="fontface.html#formats">Formats</a>
-				<p>Sources from which fonts can be drawn.  They can be paid or open-source. Generally used with @font-face
-				or a paid version.</p>
+				<p>Sources on which fonts exist, from which can be drawn. They can be paid or open-source. Generally used with @font-face
+				or a paid version, but need to function on the browser onto which they are being pulled.</p>
 			<li><a href="fontface.html">@font-face</a>
 				<p>this CSS rule allows for the replacement of fonts with others from different formats 
 				if the fonts which are being used are not found within the parameters of the browser being used.</p>
 			<li>Unicode
 				<p>The character set being used when a font is being rendered.  
-			If there is no character for the Unicode number needing to be rendered, the site will 
-			either show nothing, or it will resort to a back-up font which does contain that character.</p>
+				If there is no character for the Unicode number needing to be rendered, the site will 
+				either show nothing, or it will resort to a back-up font which does contain that character.</p>
 			<li>glyph
-				<p></p>
+				<p>A glyph is any figure which needs to be rendered in the text of a site. They can be a symbol, number, letter or paired letters
+				which appear differently when juxtaposed</p>
 			<li>sIFR
-				<p></p>
-			<li>SVG
-				<p></p>
+				<p>An alternative to @font-face, which uses Flashplayer to render a video of a font over a limited amount of text spaces.</p>
 
 		</ul>
 	</div>
