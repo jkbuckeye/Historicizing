@@ -18,3 +18,11 @@ padding: 10px
 .pure-menu {
 padding: 10px
 }
+
+blockquote {
+float: right;
+width: 25%;
+font-size: 1.25em;
+font-style: italic;
+padding: 10px;
+}
